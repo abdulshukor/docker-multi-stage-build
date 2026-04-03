@@ -1,0 +1,18 @@
+[project]
+name = "docker-multi-stage-build"
+version = "0.0.0"
+description = "Backend API for docker-multi-stage-build-app"
+readme = "README.md"
+authors = [{ name = "Abdul Shukor", email = "abdul@gmail.com" }]
+requires-python = ">=3.13"
+dependencies = ["fastapi>=0.135.3", "httpx>=0.28.1", "uvicorn>=0.42.0"]
+
+[project.scripts]
+study-tracker-api = "backend.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/backend"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
