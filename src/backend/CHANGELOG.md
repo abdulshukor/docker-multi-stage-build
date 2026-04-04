@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/abdulshukor/docker-multi-stage-build/compare/backend-v0.1.0...backend-v0.2.0) (2026-04-04)
+
+
+### Features
+
+* **backend:** added container image building and pushing ([#9](https://github.com/abdulshukor/docker-multi-stage-build/issues/9)) ([ce80a41](https://github.com/abdulshukor/docker-multi-stage-build/commit/ce80a4196f064ee9fa44c57ef11f0a5bc6ec3fbc))
+
 ## 0.1.0 (2026-04-04)
 
 
