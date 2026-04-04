@@ -1,6 +1,6 @@
 [project]
 name = "docker-multi-stage-build"
-version = "0.2.0"
+version = "0.3.0"
 description = "Backend API for docker-multi-stage-build-app"
 readme = "README.md"
 authors = [{ name = "Abdul Shukor", email = "abdul@gmail.com" }]
