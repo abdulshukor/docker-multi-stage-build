@@ -1,4 +1,5 @@
 [tools]
+k3d = "latest"
 pre-commit = "latest"
 python = "3.13"
 ruff = "latest"
@@ -14,3 +15,12 @@ APP_REPO = 'docker-multi-stage-build'
 
 [hooks]
 enter = "bash ./scripts/setup_project"
+
+[tasks.k8s-setup-local]
+description = "Set up Kubernetes cluster builds the local images and applies them"
+run = "bash ./kubernetes/setup_cluster_local"
+
+
+[tasks.e2e-test]
+description = "Run end-to-end test on the Kubernetes deploymnet"
+run = "cd ./kubernetes && uv run e2e_test.py"
