@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.3](https://github.com/abdulshukor/docker-multi-stage-build/compare/backend-v0.3.2...backend-v0.3.3) (2026-04-05)
+
+
+### Bug Fixes
+
+* **gha:** gitops workflow ([9f941bd](https://github.com/abdulshukor/docker-multi-stage-build/commit/9f941bdd3e958e4f52907acaf0cd38dcae1c2087))
+
 ## [0.3.2](https://github.com/abdulshukor/docker-multi-stage-build/compare/backend-v0.3.1...backend-v0.3.2) (2026-04-05)
 
 
