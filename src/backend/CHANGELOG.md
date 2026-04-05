@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/abdulshukor/docker-multi-stage-build/compare/backend-v0.3.0...backend-v0.3.1) (2026-04-05)
+
+
+### Bug Fixes
+
+* **ci:** trigger ci ([b81660b](https://github.com/abdulshukor/docker-multi-stage-build/commit/b81660b3ce4e0e775a307255138d0f78a9826d05))
+
 ## [0.3.0](https://github.com/abdulshukor/docker-multi-stage-build/compare/backend-v0.2.0...backend-v0.3.0) (2026-04-04)
 
 
